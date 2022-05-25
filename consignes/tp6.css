@@ -1,0 +1,117 @@
+.contenu {
+  width: 75%;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+
+  color: green;
+}
+.teste {
+  width: 1500px;
+  height: 1000px;
+}
+.background {
+  background-image: url(/img/dinosaure.jpg);
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+header .img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1 {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.block1 h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.block1 h2 {
+  margin-left: 85px;
+  margin-top: 40px;
+}
+
+.countourReserver {
+  background-color: blue;
+  margin-right: 668px;
+  padding: 20px 90px;
+  width: 35%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.section2 {
+  display: flex;
+}
+.section3 {
+  display: flex;
+}
+.block2 {
+  width: 40%;
+  margin: auto;
+  margin-top: 200px;
+}
+.block3 {
+  margin-top: 200px;
+  padding-right: 94px;
+}
+.block4 {
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+}
+nav {
+    background-color: rgba(0, 0, 5, 0.5);
+    padding-top: 30px;
+}
+.block5 {
+  margin-top: 50px;
+  padding-right: 94px;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+.section4 {
+  margin-top: 300px;
+}
+.Partenaires h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+footer {
+    margin-top: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+footer p {
+    color: white;
+    margin-top: 100px;
+}
